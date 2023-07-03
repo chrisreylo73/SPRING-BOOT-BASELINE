@@ -1,9 +1,9 @@
 # ONE PLAYR
 - Connects music platforms 
 
-# NOTES
+# SETUP
 
-# Backend Setup
+## Backend Setup
 
 - Go to "start.spring.io" in browser
 
@@ -17,19 +17,20 @@
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.19.1</version>
      </plugin>
-
- - Use "mvn clean install" every time you run your application
+ - cd backend
+ - Use "mvn clean install" to clean and rebuild it
  - Use "mvn spring-boot:run" to run your application
 
-# Frontend Setup
-- Create boiler plate react app in frontend folder
-  - npx create-react-app frontend
+
+## Frontend Setup
+  - Create boiler plate react app in frontend folder
+    - npx create-react-app frontend
 
   - Go to frontend dir and add some libraries
     - cd frontend
-    - npm i axios date-fns
+    - npm i axios
 
-  - start up dev server     
+  - start up dev server 
     - npm start
 
 # Docker
