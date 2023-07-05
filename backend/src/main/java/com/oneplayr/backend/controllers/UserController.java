@@ -35,13 +35,11 @@ public class UserController {
       return user;
    }
 
-   
    @PostMapping
    public String saveUser (@RequestBody UserEntity user){
       userService.saveUser(user);
       return "user saved successfully!";
    }
-
 
    @DeleteMapping("/{userId}")
    public String updateUser(@RequestBody UserEntity user, @PathVariable Long userId){

@@ -46,15 +46,20 @@ public class UserServiceImpl implements UserService {
          if (user.getName() != null || user.getName().isEmpty()) {
             userDetail.setName(user.getName());
          }
-         if (user.getCity() != null || user.getCity().isEmpty()) {
-            userDetail.setCity(user.getCity());
+         if (user.getEmail() != null || user.getEmail().isEmpty()) {
+            userDetail.setEmail(user.getEmail());
+         }
+         if (user.getUsername() != null || user.getUsername().isEmpty()) {
+            userDetail.setUsername(user.getUsername());
+         }
+         if (user.getPassword() != null || user.getPassword().isEmpty()) {
+            userDetail.setPassword(user.getPassword());
          }
          userRepository.save(userDetail);
       }
       else{
          throw new RuntimeException(" User not found.");
       }
-         
    }
 
    @Override

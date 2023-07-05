@@ -1,3 +1,9 @@
 {
-	"java.configuration.updateBuildConfiguration": "interactive"
+	"java.configuration.updateBuildConfiguration": "interactive",
+	"[python]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[java]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
 }
