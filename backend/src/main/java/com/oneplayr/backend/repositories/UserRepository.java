@@ -1,9 +1,6 @@
 package com.oneplayr.backend.repositories;
 
+import com.oneplayr.backend.entity.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.oneplayr.backend.entity.UserEntity;
-
-public interface UserRepository extends JpaRepository<UserEntity, Long>{
-   
-}
+public interface UserRepository extends JpaRepository<UserEntity, Long> {}

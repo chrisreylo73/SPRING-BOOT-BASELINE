@@ -1,9 +1,12 @@
 {
 	"java.configuration.updateBuildConfiguration": "interactive",
 	"[python]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": null
 	},
 	"[java]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	}
+		"editor.defaultFormatter": "mwpb.java-prettier-formatter"
+	},
+	"editor.formatOnSave": true,
+	"java.compile.nullAnalysis.mode": "automatic",
+	"editor.defaultFormatter": ""
 }
